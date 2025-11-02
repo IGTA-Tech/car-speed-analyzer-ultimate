@@ -7,6 +7,7 @@ export const sportscars: CarData[] = [
     model: '911 GT3 RS',
     year: 2023,
     category: 'sports',
+    imageUrl: '/images/cars/porsche-911-gt3-rs-2023.webp',
     performance: {
       topSpeed: 184,
       speed0to60: 3.0,
@@ -40,6 +41,7 @@ export const sportscars: CarData[] = [
     model: 'Corvette Z06',
     year: 2023,
     category: 'sports',
+    imageUrl: '/images/cars/chevrolet-corvette-z06-2023.webp',
     performance: {
       topSpeed: 195,
       speed0to60: 2.6,

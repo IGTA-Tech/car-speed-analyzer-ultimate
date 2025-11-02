@@ -19,7 +19,7 @@ const CarCard: React.FC<CarCardProps> = ({ car, onClick }) => {
       try {
         setImageLoading(true);
         setImageError(false);
-        const url = await fetchCarImage(car.make, car.model, car.year);
+        const url = await fetchCarImage(car.make, car.model, car.year, car.imageUrl);
         setImageUrl(url);
       } catch (error) {
         console.error('Failed to load car image:', error);
@@ -31,7 +31,7 @@ const CarCard: React.FC<CarCardProps> = ({ car, onClick }) => {
     };
 
     loadImage();
-  }, [car.make, car.model, car.year]);
+  }, [car.make, car.model, car.year, car.imageUrl]);
 
   return (
     <motion.div

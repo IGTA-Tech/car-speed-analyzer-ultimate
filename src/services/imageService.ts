@@ -44,12 +44,19 @@ export const getBrandLogo = (make: string): string => {
   return `https://via.placeholder.com/800x600/3B82F6/ffffff?text=${encodeURIComponent(make)}`;
 };
 
-// Fetch car image from Unsplash
+// Fetch car image from Unsplash OR use local image
 export const fetchCarImage = async (
   make: string,
   model: string,
-  year: number
+  year: number,
+  localImageUrl?: string
 ): Promise<string> => {
+  // PRIORITY 1: Use local image if available (AI-generated images)
+  if (localImageUrl) {
+    console.log(`Using local AI-generated image for ${make} ${model}`);
+    return localImageUrl;
+  }
+
   const apiKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 
   // Check if API key is available

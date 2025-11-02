@@ -7,6 +7,7 @@ export const electricCars: CarData[] = [
     model: 'Model S Plaid',
     year: 2023,
     category: 'electric',
+    imageUrl: '/images/cars/tesla-model-s-plaid-2023.webp',
     performance: {
       topSpeed: 200,
       speed0to60: 1.99,
@@ -40,6 +41,7 @@ export const electricCars: CarData[] = [
     model: 'Nevera',
     year: 2023,
     category: 'electric',
+    imageUrl: '/images/cars/rimac-nevera-2023.webp',
     performance: {
       topSpeed: 258,
       speed0to60: 1.85,

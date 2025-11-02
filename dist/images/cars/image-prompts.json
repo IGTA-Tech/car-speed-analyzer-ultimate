@@ -1,0 +1,71 @@
+{
+  "generated_with": "Hugging Face Flux 1 Schnell",
+  "generation_date": "2025-11-02",
+  "model": "flux1-schnell",
+  "images": [
+    {
+      "id": "koenigsegg-jesko-absolut-2023",
+      "filename": "koenigsegg-jesko-absolut-2023.webp",
+      "car": "2023 Koenigsegg Jesko Absolut",
+      "prompt": "2023 Koenigsegg Jesko Absolut, sleek silver hypercar with aerodynamic body, no rear wing, side profile view, professional automotive photography, studio lighting, ultra detailed, 8k resolution, carbon fiber details, dramatic lighting",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "bugatti-chiron-super-sport-2021",
+      "filename": "bugatti-chiron-super-sport-2021.webp",
+      "car": "2021 Bugatti Chiron Super Sport 300+",
+      "prompt": "2021 Bugatti Chiron Super Sport 300+, iconic blue and black hypercar, long tail design, side profile, professional automotive photography, studio lighting, ultra detailed, 8k resolution, elegant curves, dramatic shadows",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "hennessey-venom-f5-2021",
+      "filename": "hennessey-venom-f5-2021.webp",
+      "car": "2021 Hennessey Venom F5",
+      "prompt": "2021 Hennessey Venom F5, aggressive white and orange hypercar, sharp aerodynamic design, side profile view, professional automotive photography, high contrast lighting, ultra detailed, 8k resolution, carbon fiber accents",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "porsche-911-gt3-rs-2023",
+      "filename": "porsche-911-gt3-rs-2023.webp",
+      "car": "2023 Porsche 911 GT3 RS",
+      "prompt": "2023 Porsche 911 GT3 RS, white sports car with massive rear wing, track-focused design, side profile, professional automotive photography, dynamic lighting, ultra detailed, 8k resolution, racing stripes, aggressive stance",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "chevrolet-corvette-z06-2023",
+      "filename": "chevrolet-corvette-z06-2023.webp",
+      "car": "2023 Chevrolet Corvette Z06",
+      "prompt": "2023 Chevrolet Corvette Z06, vibrant red mid-engine sports car, muscular American design, side profile view, professional automotive photography, golden hour lighting, ultra detailed, 8k resolution, carbon fiber wheels",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "tesla-model-s-plaid-2023",
+      "filename": "tesla-model-s-plaid-2023.webp",
+      "car": "2023 Tesla Model S Plaid",
+      "prompt": "2023 Tesla Model S Plaid, sleek black electric sedan, futuristic minimalist design, side profile, professional automotive photography, soft studio lighting, ultra detailed, 8k resolution, chrome trim, modern elegance",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    },
+    {
+      "id": "rimac-nevera-2023",
+      "filename": "rimac-nevera-2023.webp",
+      "car": "2023 Rimac Nevera",
+      "prompt": "2023 Rimac Nevera, stunning blue electric hypercar, cutting-edge Croatian design, side profile view, professional automotive photography, dramatic studio lighting, ultra detailed, 8k resolution, electric blue accents, carbon body",
+      "width": 1024,
+      "height": 768,
+      "inference_steps": 8
+    }
+  ],
+  "usage_note": "These images were generated using AI for educational purposes. They represent artistic interpretations of the vehicles and may not be 100% accurate to actual production models."
+}

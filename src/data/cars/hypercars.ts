@@ -7,6 +7,7 @@ export const hypercars: CarData[] = [
     model: 'Jesko Absolut',
     year: 2023,
     category: 'hypercar',
+    imageUrl: '/images/cars/koenigsegg-jesko-absolut-2023.webp',
     performance: {
       topSpeed: 330,
       speed0to60: 2.5,
@@ -78,6 +79,7 @@ export const hypercars: CarData[] = [
     model: 'Chiron Super Sport 300+',
     year: 2021,
     category: 'hypercar',
+    imageUrl: '/images/cars/bugatti-chiron-super-sport-2021.webp',
     performance: {
       topSpeed: 304,
       speed0to60: 2.4,
@@ -149,6 +151,7 @@ export const hypercars: CarData[] = [
     model: 'Venom F5',
     year: 2021,
     category: 'hypercar',
+    imageUrl: '/images/cars/hennessey-venom-f5-2021.webp',
     performance: {
       topSpeed: 311,
       speed0to60: 2.6,
